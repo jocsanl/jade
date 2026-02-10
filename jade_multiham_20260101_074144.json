@@ -1,0 +1,68 @@
+{
+  "fecha": "2026-01-01T07:41:44.256905",
+  "config": {
+    "n_qubits": 13,
+    "trials": 100,
+    "k": 0.1,
+    "t_max": 10.0
+  },
+  "prediccion_1e": 0.36787944117144233,
+  "resultados": [
+    {
+      "nombre": "Ising_1D_Abierto",
+      "tipo": "ising_1d",
+      "params": {
+        "J": 1.0,
+        "h": 0.5
+      },
+      "C_mean": 0.3679566043241103,
+      "C_std": 9.73895490491306e-15,
+      "diff_1e": 7.716315266798057e-05
+    },
+    {
+      "nombre": "Ising_1D_Periodico",
+      "tipo": "ising_periodico",
+      "params": {
+        "J": 1.0,
+        "h": 0.5
+      },
+      "C_mean": 0.3679566043239874,
+      "C_std": 7.807072599934566e-15,
+      "diff_1e": 7.716315254507888e-05
+    },
+    {
+      "nombre": "Heisenberg_XXX",
+      "tipo": "heisenberg",
+      "params": {
+        "J": 1.0
+      },
+      "C_mean": 0.36795660432559774,
+      "C_std": 6.074604327399394e-16,
+      "diff_1e": 7.716315415540187e-05
+    },
+    {
+      "nombre": "XY_Model",
+      "tipo": "xy",
+      "params": {
+        "Jx": 1.0,
+        "Jy": 0.5
+      },
+      "C_mean": 0.36795660432580557,
+      "C_std": 1.4100050958885257e-15,
+      "diff_1e": 7.716315436323562e-05
+    },
+    {
+      "nombre": "Ising_AllToAll",
+      "tipo": "ising_all2all",
+      "params": {
+        "J": 0.1,
+        "h": 0.5
+      },
+      "C_mean": 0.36795660432449645,
+      "C_std": 1.0662205296836277e-14,
+      "diff_1e": 7.716315305411614e-05
+    }
+  ],
+  "sigma_entre_hamiltonianos": 7.583742927915884e-13,
+  "tiempo_segundos": 321.42254996299744
+}
